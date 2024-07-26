@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    padding: 10px;
+    
+}
+.cont{
+    max-width: 700px;
+    width: 100%;
+    background-color:#FFFFFF ;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.cont form .user{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+form .user .inpubox{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+.user .inpubox input {
+   height: 40px;
+   width: 90%;
+   outline: none; 
+   border: none;
+   border-bottom: 1px solid #b4b2b2;
+   font-size: 16px;
+}
+select{
+    height: 30px;
+    width: 90%;
+    
+}
+span{
+    font-size: 20px;
+}
+.user .inpubox .det{
+ display: block;
+ font-weight: 400;
+ margin-bottom: 5px;
+} 
+.user .inpubox input:focus,
+.user .inpubox input:valid{
+    border-color: #000000;
+}
+form .button{
+    margin-left: 60%;
+}
+form .button input{
+    height: 40px;
+    width: 90px;
+}
+form .button #b1{
+    margin-left: 15px;
+    background-color: #657280;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #546372;
+}
+form .button #b2{
+   color:  #546372;
+   background-color: #FFFFFF;
+   border: 1px solid #b4b2b2;
+   border-radius: 5px;
+}
+p{
+    font-size: 20px;
+    color: #171E25;
+
+}
+b{
+    color:  #303F4E;
+    
+}
+
